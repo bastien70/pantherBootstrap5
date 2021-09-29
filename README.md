@@ -16,7 +16,8 @@ Chrome to launch tests (or you can update the HomeControllerTest.php file)
 
 4. `vendor/bin/bdi detect drivers`
 
-# Usage
+
+# Usage
 
 Just launch tests on **tests/Controller/HomeControllerTest.php**
 Test with bootstrap 4 will work.
