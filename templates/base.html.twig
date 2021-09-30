@@ -1,5 +1,18 @@
-{% extends 'base.html.twig' %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
 
-{% block body %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% endblock %}
+    {% block stylesheets %}{% endblock %}
+    {% block javascripts %}{% endblock %}
+</head>
+
+<body>
+
+{% block body %}{% endblock %}
+
+</body>
+</html>
